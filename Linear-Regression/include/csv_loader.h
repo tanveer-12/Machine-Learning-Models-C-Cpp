@@ -39,3 +39,6 @@ feature - [5.1, 3.5, 0.2] (all cols except 2)
 target - 1.4 (col 2)
 this row becomes one DataPoint, added to the vector
 */
+
+// scale features of dataset to [0,1]
+void scaleFeatures(std::vector<DataPoint>& dataset);
